@@ -13,7 +13,7 @@ function App() {
 
   const renderPage = () => {
     switch (currentPage) {
-      case 'home':
+      case 'homee':
         return <Home onNavigate={setCurrentPage} />;
       case 'about':
         return <About />;
